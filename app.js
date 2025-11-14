@@ -11,13 +11,12 @@ import {
   (get it from Firebase Console -> Project settings -> SDK setup)
 ------------------------*/
 const firebaseConfig = {
-    apiKey: "AIzaSyDl9PYjf-V4SeO83Ews6Y8fmPyyPsf4M0g",
-    authDomain: "todocloud-752bf.firebaseapp.com",
-    projectId: "todocloud-752bf",
-    storageBucket: "todocloud-752bf.firebasestorage.app",
-    messagingSenderId: "7034105238",
-    appId: "1:7034105238:web:87650a7b4222a88eb241b7",
-    measurementId: "G-YJ6CYF8Z1K"
+    apiKey: "AIzaSyCn-5maj62dfS-UiWTqXuBPEVFetXBlZkA",
+    authDomain: "todocloud20.firebaseapp.com",
+    projectId: "todocloud20",
+    storageBucket: "todocloud20.firebasestorage.app",
+    messagingSenderId: "290051645738",
+    appId: "1:290051645738:web:900b3794e13204e7197e53"
   };
 
 const app = initializeApp(firebaseConfig);
@@ -86,3 +85,4 @@ onSnapshot(q, (snapshot) => {
     taskList.appendChild(li);
   });
 });
+
